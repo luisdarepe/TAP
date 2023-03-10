@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <h2>Alerta con Jquery</h2>
+    <button onclick="myFunction()">¿La caja negra de un avión es negra?</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var txt;
+            if (confirm("¿La caja negra de un avión es negra?")) {
+                txt = "No. Es naranja"
+            } else {
+                txt = "Muy bien"
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
+    
+        <button type="button" onclick="history.go(-1)" ;>Inicio</button>
+</body>
+</html>

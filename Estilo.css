@@ -1,0 +1,16 @@
+a{
+    display: block;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    padding: 10px 30px;
+    margin: 150px 130px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    border: 2px solid brown;
+    color: brown;
+}
